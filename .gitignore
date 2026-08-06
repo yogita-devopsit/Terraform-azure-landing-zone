@@ -1,0 +1,18 @@
+# Terraform
+**/.terraform/
+**/.terraform.lock.hcl
+
+# Terraform State
+*.tfstate
+*.tfstate.*
+
+# Variable files
+*.tfvars
+!terraform.tfvars.example
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
